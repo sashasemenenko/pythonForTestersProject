@@ -33,3 +33,16 @@ print(my_list.count("banana"))
 # Index of the same elements from the list
 print(my_list.index("banana"))
 
+empty_tuple = ()
+print(empty_tuple)
+
+my_tuple = (1, 2, 3, 'apple', 3.14)
+print(my_tuple)
+
+print(my_tuple[3])
+
+print(my_tuple[1:4])
+
+print(len(my_tuple))
+print(my_tuple.count('apple'))
+print(my_tuple.index('apple'))
