@@ -20,3 +20,24 @@ print(f"My {friend.age} years old friend {friend.name} is driving {friends_car.m
 
 print(f"My car has {my_car.wheels} wheels.")
 print(f"My friend's car has {friends_car.wheels} wheels.")
+
+my_car.year = 2015
+Car.wheels = 6
+
+print(my_car.year)
+print(friends_car.year)
+print(my_car.wheels)
+print(friends_car.wheels)
+
+my_car.drive(100)
+friends_car.drive(50)
+
+Car.set_wheels(8)
+print(my_car.wheels)
+print(friends_car.wheels)
+
+kilometers = Car.miles_to_kilometers(100)
+print(kilometers)
+
+kilometers_2 = my_car.miles_to_kilometers(100)
+print(kilometers_2)
